@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcfe8228075748a4a91b9644f134f465, type: 3}
+  m_Name: A2
+  m_EditorClassIdentifier: 
+  storyText: "Yerlilerin sizi yemek i\xE7in kazan kaynatt\u0131\u011F\u0131n\u0131
+    farkettiniz ve oradan ko\u015Farak uzakla\u015Ft\u0131n\u0131z. \u0130kiye ayr\u0131lmakta
+    olan bir yolla kar\u015F\u0131la\u015Ft\u0131n\u0131z. Sa\u011Fdaki yolda uyumakta
+    olan bir k\xF6pek varken soldaki yolda havlayan bir k\xF6pek var. \r\n\r\nNe
+    yapacaks\u0131n ?\r\n1- Sa\u011Fdaki yola gidin\r\n2- Soldaki yola gidin\r\n3-
+    Geriye gidin."
+  nextStates:
+  - {fileID: 11400000, guid: fa896e93281efbd4d9b770cffd18b871, type: 2}
+  - {fileID: 11400000, guid: b74858029d73a7f4c9306564d095f865, type: 2}
+  - {fileID: 11400000, guid: 18f56bcefc767504788f5f6a2a652a60, type: 2}
